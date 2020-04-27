@@ -9,6 +9,8 @@ h1, h2, h3, h4 {
     font-family: Helvetica, sans-serif;
     text-align: center;
     text-decoration: none;
+    list-style-type: none;
+    list-style: none;
 }
 
 nav a {
@@ -54,6 +56,7 @@ a:hover { color: red; }
 
 li {
     text-decoration: none;
+    list-style-type: none;
 }
 
 h1 {
@@ -685,6 +688,31 @@ h1 {
     -webkit-animation: text-flicker-in-glow 4s linear both;
             animation: text-flicker-in-glow 4s linear both;
 }
+
+
+
+
+.stagger-visualizer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 17rem;
+  height: 17rem;
+}
+
+.stagger-visualizer div {
+  /*position: absolute;*/
+  width: 1rem;
+  height: 1rem;
+  border: 1px solid #fff;
+  background-color: #fff;
+}
+
+
+
+
+
 
 
 @media only screen and (min-width:768px) {
