@@ -15,8 +15,9 @@ h1, h2, h3, h4 {
 
 nav a {
     float:left;
-    color:#d1d3d4;
+    color:grey;
     padding-right: 10px;
+
 
 }
 nav {
@@ -24,6 +25,7 @@ nav {
     text-align: top;
     margin-top: 1%;
     padding-bottom:300px;
+    padding-left:20px;
 }
 
 h2 {
@@ -661,8 +663,8 @@ h1 {
   }
 }
 .tracking-in-expand-fwd-bottom {
-    -webkit-animation: tracking-in-expand-fwd-bottom 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-            animation: tracking-in-expand-fwd-bottom 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    -webkit-animation: tracking-in-expand-fwd-bottom 2.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+            animation: tracking-in-expand-fwd-bottom 2.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
 
 .text-flicker-in-glow2 {
@@ -713,7 +715,7 @@ a {
 }
 
 h1 {
-  font-size: 1.6rem;
+  font-size: 1.9rem;
 }
 
 h2 {
@@ -729,7 +731,7 @@ header#header {
   position: absolute;
   top: 0;
   left: 0;
-  padding: 1.6rem;
+  padding: 3.6rem;
 }
 
 /********************

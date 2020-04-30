@@ -1,3 +1,4 @@
+// your script file for adding your own jquery
 
 // Your Code from here on down. Don't delete that line above!
 (function () {
@@ -62,7 +63,7 @@
       ctx.fillStyle = textColor;
       ctx.globalCompositeOperation = "lighter";
       ctx.shadowColor = textColor;
-      ctx.shadowBlur = 10;
+      ctx.shadowBlur = 5;
       ctx.font = textSize + 'px "sans-serif"';
       ctx.textAlign = "center";
       ctx.textBaseline = "middle";
