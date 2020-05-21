@@ -63,7 +63,7 @@
       ctx.fillStyle = textColor;
       ctx.globalCompositeOperation = "lighter";
       ctx.shadowColor = textColor;
-      ctx.shadowBlur = 5;
+      ctx.shadowBlur = 10;
       ctx.font = textSize + 'px "sans-serif"';
       ctx.textAlign = "center";
       ctx.textBaseline = "middle";
